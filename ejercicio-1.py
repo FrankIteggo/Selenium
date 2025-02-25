@@ -1,3 +1,6 @@
+# Ejercicio 1
+# Acceder a una Página Web y Verificar el Título
+
 from selenium import webdriver
 
 driver = webdriver.Chrome()
