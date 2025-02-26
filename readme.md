@@ -6,11 +6,11 @@
 
 1. Instalar python https://www.python.org/downloads/
 2. Instalar Selenium para python:
-   > [!NOTE]
-   >
-   > ```bash
-   > pip install selenium
-   > ```
+
+> [!NOTE]
+> ```bash
+> pip install selenium
+> ```
 
 > [!CAUTION]
 > Comprueba que el interprete de python es el acorde a tu versión de Python instalada para que detecte adecuadamente el import de Selenium
