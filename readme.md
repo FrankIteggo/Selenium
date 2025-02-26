@@ -81,7 +81,7 @@ Enunciado: Accede a https://www.selenium.dev y toma una captura de pantalla de l
 
 ## 10. Manejo de iFrames
 
-Enunciado: Visita https://the-internet.herokuapp.com/iframe, cambia el foco al iframe, edita el texto dentro del editor y verifica el cambio.
+Enunciado: Visita https://testpages.eviltester.com/styled/iframes-test.html, cambia el foco entre los diferentes iframes y obten su contenido
 
 # Ejercicios Avanzados de Selenium
 
