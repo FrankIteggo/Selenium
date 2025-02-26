@@ -6,9 +6,18 @@
 
 1. Instalar python https://www.python.org/downloads/
 2. Instalar Selenium para python: `pip install selenium`
-3. Comprueba que el interprete de python es el acorde a tu version de Python instalada
+
+>[!CAUTION]
+>Comprueba que el interprete de python es el acorde a tu versión de Python instalada para que detecte adecuadamente el import de Selenium
 
 # Ejercicios Básicos de Selenium
+
+>[!TIP]
+>Haz uso del Expected Conditions (EC) junto al WebDriverWait
+>Puedes ver mas informacion aqui: https://www.selenium.dev/selenium/docs/api/py/webdriver_support/selenium.webdriver.support.expected_conditions.html
+
+>[!TIP]
+>Haz uso de bloque Try, Except para mejorar la integridad del código y el manejo de errores 
 
 1. Acceder a una Página Web y Verificar el Título
    Enunciado: Crea un script en Selenium que abra la página
