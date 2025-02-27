@@ -96,7 +96,7 @@ Enunciado: Visita https://testpages.eviltester.com/styled/iframes-test.html, cam
 
 ## 2. Manejo de Captchas y Autenticación Multi-Factor
 
-- **URL**: [https://www.irctc.co.in/nget/train-search](https://www.irctc.co.in/nget/train-search)
+- **URL**: https://nopecha.com/captcha/textcaptcha
   - Simula la autenticación en un sistema con CAPTCHA (puedes usar OCR con Tesseract).
 
 > [!WARNING]
@@ -111,14 +111,28 @@ Enunciado: Visita https://testpages.eviltester.com/styled/iframes-test.html, cam
 > [!NOTE]
 > Analizar captchas y obtener el texto de la imagen no es muy preciso y desde el punto de vista de un entorno real de testing no se utiliza, puesto que normalmente es desactivado por los desarrolladores.
 
-- **URL**: [https://the-internet.herokuapp.com/basic_auth](https://the-internet.herokuapp.com/basic_auth)
+- **URL**: https://authenticationtest.com/simpleFormAuth/
   - Automatiza el login en una página con autenticación básica (http://username:password@url).
+
+> [!NOTE]
+> Las URLs originales del ejercicio han sido cambiadas por otras para poder realizar los ejercicios.
 
 ## 3. Descarga y Validación de Archivos
 
-- **URL**: [https://the-internet.herokuapp.com/download](https://the-internet.herokuapp.com/download)
+> [!WARNING]
+> Dependencias necesarias (usar la que mas guste)
+>
+> ```bash
+> pip install pymupdf
+> ```
+>
+> ```bash
+> pip install pdfminer.six
+> ```
+
+- **URL**: https://the-internet.herokuapp.com/download
   - Descarga archivos y verifica su existencia en el sistema de archivos.
-- **URL**: [https://file-examples.com/index.php/sample-documents-download/samplepdf-download/](https://file-examples.com/index.php/sample-documents-download/samplepdf-download/)
+- **URL**: https://the-internet.herokuapp.com/download
   - Descarga un PDF y usa PyMuPDF o pdfminer para extraer y validar el texto.
 
 ## 4. Pruebas en Múltiples Pestañas y Ventanas
