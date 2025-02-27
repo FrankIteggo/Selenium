@@ -8,6 +8,7 @@
 2. Instalar Selenium para python:
 
 > [!NOTE]
+>
 > ```bash
 > pip install selenium
 > ```
@@ -97,8 +98,8 @@ Enunciado: Visita https://testpages.eviltester.com/styled/iframes-test.html, cam
 
 - **URL**: [https://www.irctc.co.in/nget/train-search](https://www.irctc.co.in/nget/train-search)
   - Simula la autenticación en un sistema con CAPTCHA (puedes usar OCR con Tesseract).
-  
-  > [!WARNING]
+
+> [!WARNING]
 > Es necesaria la instalacion de la libreria pytesseract
 >
 > ```bash
@@ -107,7 +108,7 @@ Enunciado: Visita https://testpages.eviltester.com/styled/iframes-test.html, cam
 >
 > Ademas es necesario descargar e instalar Tesseract OCR para windows desde [aquí](https://github.com/UB-Mannheim/tesseract/wiki)
 
->[!NOTE]
+> [!NOTE]
 > Analizar captchas y obtener el texto de la imagen no es muy preciso y desde el punto de vista de un entorno real de testing no se utiliza, puesto que normalmente es desactivado por los desarrolladores.
 
 - **URL**: [https://the-internet.herokuapp.com/basic_auth](https://the-internet.herokuapp.com/basic_auth)
