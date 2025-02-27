@@ -98,7 +98,7 @@ Enunciado: Visita https://testpages.eviltester.com/styled/iframes-test.html, cam
 - **URL**: [https://www.irctc.co.in/nget/train-search](https://www.irctc.co.in/nget/train-search)
   - Simula la autenticación en un sistema con CAPTCHA (puedes usar OCR con Tesseract).
   
-  > [!WARNING]
+> [!WARNING]
 > Es necesaria la instalacion de la libreria pytesseract
 >
 > ```bash
